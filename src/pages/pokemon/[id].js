@@ -1,4 +1,5 @@
 import { useRouter } from 'next/router'
+import { capitaliseFirstLetter } from '@/utils/capitalise'
 
 import Head from 'next/head'
 
@@ -7,9 +8,7 @@ export default function SinglePokemon({ pokemon }) {
     const { id } = router.query
     console.log(pokemon)
 
-    function capitaliseFirstLetter(string) {
-        return string.charAt(0).toUpperCase() + string.slice(1);
-    }
+
 
     return (<>
     <Head>
