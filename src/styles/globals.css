@@ -1,3 +1,35 @@
 @tailwind base;
-@tailwind componenets;
+@tailwind components;
 @tailwind utilities;
+
+@layer base {
+
+}
+
+:root, html[data-theme="light"] {
+    --font-mono: monospace;
+    --callout-rgb: #E9A6D3;
+    --callout-border-rgb: #E9A6D3;
+    --card-rgb: #E9A6D3;
+    --card-border-rgb: #E9A6D3;
+    --secondary-glow: #E9A6D3;
+    --primary-glow: #E9A6D3;
+    --tile-border: #E9A6D3;
+    --tile-start-rgb: #E9A6D3;
+    --tile-end-rgb: #E9A6D3;
+    --background-end-rgb: #E9A6D3;
+    --background-start-rgb: #E9A6D3;
+    --border-radius: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
